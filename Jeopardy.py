@@ -91,17 +91,6 @@ else:
 
 connection.close()
 
-"""
-results = build_query_results("SELECT text, answer, value FROM clue LIMIT 10")
-
-print "\nExample clues:\n"
-for clue in results:
-    text, answer, value = clue
-    print "[$%s]" % (value,)
-    print "A: %s" % (text,)
-    print "Q: What is '%s'" % (answer,)
-    print ""
-"""
 
 """
 def print_table(d):
